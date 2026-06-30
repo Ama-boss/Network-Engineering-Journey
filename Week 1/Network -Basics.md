@@ -21,3 +21,25 @@ Network Standards: Learned that network products rely on vendor-neutral protocol
 **Physical**: Translating everything into raw bits over electrical or optical signals.
 
 **Data Encapsulation**: Tracked how data is wrapped and renamed at each stage of the encapsulation/decapsulation process. I mapped out how data transforms from Segments/Datagrams (Layer 4) into Packets (Layer 3), and finally into Frames (Layer 2)
+## Day 4
+
+#### Topic: Cisco IOS CLI Basics
+
+​Access: Requires a rollover cable, terminal emulator, or Packet Tracer for simulation.
+
+​**Navigation Modes:**
+​Router> (User EXEC) ➔ Type enable to move up.
+
+​Router# (Privileged EXEC) ➔ Type configure terminal to modify settings.
+
+​Router(config)# (Global Configuration).
+
+**​Device Files & Security**
+
+​Files: running-config (active in RAM) vs. startup-config (saved in NVRAM).
+
+**​Security Commands**
+
+​service password-encryption : Encrypts plain-text passwords.
+
+​enable secret <pass> : Highly secure, recommended method to lock privileged mode.
